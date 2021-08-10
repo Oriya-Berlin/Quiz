@@ -1,15 +1,11 @@
 import React, {useState} from "react";
 
 
+
 const Card = ({card}) => {
 
 
     const [flip, setFlip] = useState(false);
-
-
-    
-
-
 
 
     if(!flip){
@@ -28,16 +24,13 @@ const Card = ({card}) => {
             </div>
         );
     }else{ 
+
         return(
             <div onClick={() => setFlip(!flip)} className="card">
-    
-                {/* <div className='front'>
-                    {card.question}
-                </div>         */}
-
                 <div className="back">{card.answer}</div>
             </div>
-        )};
+        )
+    };
 
 
 };
