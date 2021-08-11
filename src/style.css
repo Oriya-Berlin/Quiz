@@ -61,3 +61,35 @@ body{
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
     gap: 1rem;
 }
+
+
+
+
+/****** Form Style ******/
+
+
+#generatorForm{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: teal;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+
+}
+
+.form-group{
+    margin: .9rem;
+    font-size: large;
+}
+
+
+#btn{
+    background-color: goldenrod;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: large;
+
+}
